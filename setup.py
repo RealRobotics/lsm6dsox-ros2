@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "imu_node = lsm6dsox_ros2.imu_node.main"
+            "imu_node = lsm6dsox_ros2.imu_node:main"
         ],
     },
 )
